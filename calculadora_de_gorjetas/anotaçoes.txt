@@ -1,0 +1,5 @@
+No HTML, a tag <div> é uma abreviação de "division", 
+que em português significa "divisão". 
+É um elemento que se comporta como um bloco 
+e é usado para agrupar blocos de elementos 
+e aplicar estilos CSS a eles.

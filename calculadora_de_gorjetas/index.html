@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA DE GORJETAS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Gorjetas</h1>
+        <label for="bill">Valor da Conta</label>
+        <input type="number" id="bill" placeholder="Ex.: 100">
+
+        <label for="tip">Porcentagem da Gorjeta</label>
+        <select name="tip" id="tip">
+            <option value="0.1">10%</option>
+            <option value="0.15">15%</option>
+            <option value="0.20">20%</option>
+        </select>
+
+        <label for="divcont">Quantas pessoas dividirão a conta?</label>
+        <input type="number" id="divcont" placeholder="Ex.: 2">
+
+        <button onclick="calculateTip()">Calcular Gorjeta</button>
+
+        <h2 id="result">Gorjeta: R$ 0.00</h2>
+
+        <h3 id="totalconta">Total da Conta: R$ 0.00</h3>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
